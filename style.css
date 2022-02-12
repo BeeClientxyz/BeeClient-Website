@@ -1,0 +1,13 @@
+.accordion-button:not(.collapse) {
+	background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.accordion-button:not(.collapse)::after {
+	filter: brightness(1000.0);
+}
+
+.accordion-button:focus,.accordion-button:active {
+   outline: none !important;
+   box-shadow: none;
+}

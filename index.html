@@ -7,16 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Home | BeeClient</title>
     <script src="https://kit.fontawesome.com/4843afa1ca.js" crossorigin="anonymous"></script>
   </head>
   <body>
-
     <!-- HEADER -->
-
     <header class="bg-dark">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark py-4 animate__animated animate__backInDown">
         <div class="container">
@@ -48,9 +46,7 @@
         </div>
       </nav>
     </header>
-
     <!-- MAIN -->
-
     <main>
       <div class="p-5 text-center bg-image" style="background-image: url(img/bg.png); height: 90vh;">
         <div class="d-flex justify-content-center align-items-center h-100">
@@ -61,7 +57,6 @@
           </div>
         </div>
       </div>
-
       <section id="annoucements">
         <div class="album py-5 bg-dark">
           <div class="container" data-aos="fade-right">
@@ -128,67 +123,44 @@
           </div>
         </div>
       </section>
-
       <section id="download">
         <div class="position-relative overflow-hidden p-3 p-md-5 bg-dark" style="background-image: url(img/bg2.jpg);">
           <div class="container" data-aos="fade-left">
-            <h2 class=" text-white" style="font-size: 50px; font-family: 'Montserrat', sans-serif; text-shadow: 0px 5px 0px rgba(0,0,0,0.50);">DOWNLOAD</h2> <h2 class=" text-white" style="font-size: 25px; font-family: 'Montserrat', sans-serif; text-shadow: 0px 3px 0px rgba(0,0,0,0.50);">WINDOWS ONLY</h2>
-            <div class="accordion w-50 py-4 text-white" id="accordionExample" style="outline: none;">
-              <div class="accordion-item bg-dark">
-                <h2 class="accordion-header text-white" id="headingOne">
-                  <button
-                    class="accordion-button text-white"
-                    type="button"
-                    data-mdb-toggle="collapse"
-                    data-mdb-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
-                  >
-                    First step
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-mdb-parent="#accordionExample">
-                  <div class="accordion-body">
-                    test
+            <h2 class=" text-white" style="font-size: 50px; font-family: 'Montserrat', sans-serif; text-shadow: 0px 5px 0px rgba(0,0,0,0.50);">DOWNLOAD</h2>
+            <h2 class=" text-white" style="font-size: 25px; font-family: 'Montserrat', sans-serif; text-shadow: 0px 3px 0px rgba(0,0,0,0.50);">WINDOWS ONLY</h2>
+            <div class="d-flex">
+              <div class="accordion text-white py-5 w-50 float-left" id="accordionExample" style="outline: none; margin-right: 150px;">
+                <div class="accordion-item bg-dark">
+                  <h2 class="accordion-header text-white" id="headingOne">
+                    <button class="accordion-button text-white" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> First step </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-mdb-parent="#accordionExample">
+                    <div class="accordion-body"> At the start, click the download button and installation will start. </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-dark">
+                  <h2 class="accordion-header " id="headingTwo">
+                    <button class="accordion-button collapsed text-white" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Second step </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-mdb-parent="#accordionExample">
+                    <div class="accordion-body"> Then, when the installer is ready, run it. Instalator will automatically install the launcher. </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-dark">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed text-white" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Third step </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-mdb-parent="#accordionExample">
+                    <div class="accordion-body"> Start the launcher, log in and start playing on your favorite servers! </div>
                   </div>
                 </div>
               </div>
-              <div class="accordion-item bg-dark">
-                <h2 class="accordion-header " id="headingTwo">
-                  <button
-                    class="accordion-button collapsed text-white"
-                    type="button"
-                    data-mdb-toggle="collapse"
-                    data-mdb-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    Second step
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-mdb-parent="#accordionExample">
-                  <div class="accordion-body">
-                    test
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item bg-dark">
-                <h2 class="accordion-header" id="headingThree">
-                  <button
-                    class="accordion-button collapsed text-white"
-                    type="button"
-                    data-mdb-toggle="collapse"
-                    data-mdb-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                  >
-                    Third step
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-mdb-parent="#accordionExample">
-                  <div class="accordion-body">
-                    test
-                  </div>
+              <div class="card float-right bg-dark text-white" style="width: 400px;">
+                <img src="img/bg2.jpg" class="card-img" />
+                <div class="card-body">
+                  <h5 class="card-title">Windows installer</h5>
+                  <p class="card-text">Click the download button and installation will start.</p>
+                  <a href="#!" class="btn btn-warning text-white" data-mdb-ripple-radius="0%">DOWNLOAD</a>
                 </div>
               </div>
             </div>
@@ -196,9 +168,7 @@
         </div>
       </section>
     </main>
-
     <!-- FOOTER -->
-
     <footer class="bg-dark text-center text-white">
       <div class="container p-4 pb-0">
         <section class="mb-4">
@@ -217,11 +187,9 @@
       </div>
     </footer>
     <script type="text/javascript" src="js/mdb.min.js"></script>
-    </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
   </body>
 </html>
-  
